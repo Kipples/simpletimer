@@ -1,0 +1,5 @@
+/apitests
+/include/
+/lib/
+*.o
+/timer
