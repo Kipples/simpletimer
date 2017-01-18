@@ -196,6 +196,8 @@ int main(int argc, char **argv)
     return 3;
   }
 
+  SDL_SetWindowTitle(window, "Timer");
+
   load_texture(font_file, &font_texture, renderer);
 
   while(!quit) {
