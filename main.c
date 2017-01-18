@@ -5,7 +5,7 @@
 
 #include "simple_timer.h"
 
-#define WINDOW_WIDTH 290
+#define WINDOW_WIDTH 250
 #define WINDOW_HEIGHT 60
 #define PORT 9010
 
@@ -138,7 +138,7 @@ void render_timer(simple_timer_t *timer, SDL_Renderer *renderer)
   char str[32];
   sprintf(str, "%02d:%02d:%02d", hr, mn, sc);
 
-  render_string(str, 33, 10, renderer, &timer_color, 4.0);
+  render_string(str, 12, 10, renderer, &timer_color, 4.0);
 }
 
 int main(int argc, char **argv)
