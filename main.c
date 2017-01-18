@@ -5,7 +5,7 @@
 
 #include "simple_timer.h"
 
-#define WINDOW_WIDTH 250
+#define WINDOW_WIDTH 270
 #define WINDOW_HEIGHT 60
 #define PORT 9010
 
